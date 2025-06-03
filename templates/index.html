@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome | Student Exam Performance Indicator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap for styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #74ebd5, #9face6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .card {
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+            background-color: white;
+        }
+        .btn {
+            padding: 10px 25px;
+            font-size: 18px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1 class="mb-4">🎓 Welcome to the Student Exam Performance Indicator</h1>
+        <p class="mb-4">Predict a student's math score based on their background and scores.</p>
+        <a href="{{ url_for('predict_datapoint') }}" class="btn btn-primary">Go to Prediction Form</a>
+    </div>
+
+</body>
+</html>
