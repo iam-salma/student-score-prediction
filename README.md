@@ -1,7 +1,7 @@
 ## 🧠 Student Performance Prediction
 This project is an end-to-end machine learning application that predicts a student's math score based on various performance-related inputs. It includes a trained model, a Flask web interface, and deployment setup using AWS (ECR, ECS, EC2, or GitHub Actions).
 
-🔍 Problem Statement
+# 🔍 Problem Statement
 The goal is to predict the math score of a student using features such as:
 Gender
 Race/Ethnicity
@@ -11,7 +11,7 @@ Test Preparation Course
 Reading Score
 Writing Score
 
-🚀 Tech Stack
+# 🚀 Tech Stack
 Python
 Flask for the web framework
 Scikit-learn for model training
