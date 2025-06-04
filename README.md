@@ -27,10 +27,6 @@ GitHub Actions for CI/CD
 - CI/CD Pipeline with GitHub Actions  
 - Dockerized & Deployed on AWS ECS  
 
-🧰 How to Run Locally
-Clone the repo: git clone https://github.com/your-username/student-performance.git
-cd student-performance
-
 Install dependencies: pip install -r requirements.txt
 Run the Flask app: python app.py
 
