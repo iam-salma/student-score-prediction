@@ -35,5 +35,3 @@ Run the Flask app: python app.py
 Algorithm: RandomForestRegressor
 Evaluation: Trained on student dataset, evaluated using MAE & R² Score
 Target: math_score
-
-![Screenshot 2025-06-05 002843](https://github.com/user-attachments/assets/54296c5b-0baa-4c3b-aaae-4f72b3b79412)
